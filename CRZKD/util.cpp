@@ -109,7 +109,7 @@ NTSTATUS ObReg() {
 
 void XOR(BYTE* data, size_t size) {
 	for (size_t i = 0; i < size; i++) {
-		data[i] = data[i] ^ 0x37;
+		data[i] = data[i] ^ 0x37; //Modify this byte to any random one
 	}
 }
 
